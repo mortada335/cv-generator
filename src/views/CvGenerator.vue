@@ -539,4 +539,22 @@ watch(
   word-break: break-word;
   overflow-wrap: break-word;
 }
+
+
+@media (min-width: 768px) {
+  .cv-generator {
+    /* Adjust styles for medium screens */
+    /* For example, increase the font size */
+    font-size: 18px;
+  }
+}
+
+/* Styles for large screens (desktops) */
+@media (min-width: 1200px) {
+  .cv-generator {
+    /* Adjust styles for large screens */
+    /* For example, increase the container width */
+    max-width: 1200px;
+  }
+}
 </style>
